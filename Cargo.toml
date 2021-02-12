@@ -40,4 +40,4 @@ default = [ "cli" ]
 cli = [ "lazy_static", "ansi_term", "pad", "unicode-width", "linefeed", "rand", "structopt" ]
 
 [target.'cfg(target_os = "linux")'.dependencies]
-nix = "0.18"
+nix = "0.19"
